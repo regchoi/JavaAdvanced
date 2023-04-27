@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @ResponseBody
-
 public interface OrderControllerV1 {
 
     @GetMapping("/v1/request")
